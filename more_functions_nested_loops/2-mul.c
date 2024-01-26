@@ -8,6 +8,9 @@
 
 int mul(int a, int b)
 {
-	printf("%d\n", mul(10, 28);
+	for(a = 10; b = 19)
+	{
+		printf("%d\n", mul);
+	}
 	return (0);
 }
