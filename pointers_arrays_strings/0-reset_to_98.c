@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * reset_to_98 - updates the value of a int to 98
  * 
@@ -12,7 +13,7 @@ void reset_to_98(int *n)
 
 	printf("n = %d\n", *n);
 
-	*n = 98;
+	i = 98;
 
 	printf("n = %d\n", *n);
 }
