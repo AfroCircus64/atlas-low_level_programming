@@ -16,10 +16,7 @@ void rev_string(char *s)
 	{
 		length++;
 	}
-
-	int mid = length / 2;
-
-	for (i = 0; i < mid; i++)
+	for (i = 0; i < length / 2; i++)
 	{
 		c = s[i];
 		s[i] = s[length - i - 1];
