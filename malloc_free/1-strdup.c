@@ -12,7 +12,7 @@ char *_strdup(char *str)
 {
 	char *rope;
 
-	size_t len = 0;
+	size_t len;
 
 	len = strlen(str);
 
