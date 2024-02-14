@@ -31,6 +31,4 @@ char *_strdup(char *str)
 	strcpy(rope, str);
 
 	return (rope);
-
-	free(rope);
 }
