@@ -18,7 +18,8 @@ char *create_array(unsigned int size, char c)
 	{
 		return (NULL);
 	}
-	else if (k == NULL)
+
+	if (k == NULL)
 	{
 		return (NULL);
 	}
