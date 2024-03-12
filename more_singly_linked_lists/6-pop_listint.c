@@ -16,6 +16,10 @@ int pop_listint(listint_t **head)
 	{
 		return (0);
 	}
+	else if (*head == NULL)
+	{
+		return (0);
+	}
 
 	i = (*head)->n;
 	node = *head;
