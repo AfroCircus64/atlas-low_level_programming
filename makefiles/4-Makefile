@@ -1,0 +1,30 @@
+CC = gcc
+
+SRC = main.c school.c
+
+OBJ = ${SRC:.c=.o}
+
+NAME = school
+
+RM = rm -f
+
+CFLAGS = -Wall -Werror -Wextra -pedantic
+
+all: ${NAME}
+
+${NAME}: ${OBJ}
+	${CC} ${CFLAGS} -o ${NAME} ${OBJ}
+
+%.o: %.C
+	${CC} ${CFLAGS} -c $< -o $@
+
+clean:
+	${RM} *~
+
+oclean:
+	${RM} *.o
+
+fclean:
+	${RM} *~ ${NAME} *.o
+
+re: fclean all
