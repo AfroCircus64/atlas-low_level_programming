@@ -9,5 +9,6 @@
  */
 int _putchar(char c)
 {
+	/* Write the character to standard output */
 	return (write(1, &c, 1));
 }
